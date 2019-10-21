@@ -9,6 +9,7 @@
   "author": "Andrew Mac",
   "license": "ISC",
   "dependencies": {
+    "@zeit/next-css": "^1.0.1",
     "express": "^4.17.1",
     "next": "^9.1.1",
     "react": "^16.10.2",
