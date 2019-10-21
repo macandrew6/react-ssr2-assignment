@@ -10,10 +10,12 @@ app.prepare()
   .then(() => {
     const server = express();
 
+    //unspecified routes do this
     server.get('*', (req, res) => {
       return handle(req, res);
     });
 
+    //creates port to listen to
     server.listen(port, (err) => {
       if (err) throw err;
       console.log(`Ready on http://localhost:${port}`);
