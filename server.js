@@ -10,6 +10,14 @@ app.prepare()
   .then(() => {
     const server = express();
 
+    server.get('/page2', (req, res) => {
+      return app.render(req, res, '/page2');
+    });
+    
+    server.get('/page3', (req, res) => {
+      return app.render(req, res, '/ohyeah');
+    });
+
     //unspecified routes do this
     server.get('*', (req, res) => {
       return handle(req, res);

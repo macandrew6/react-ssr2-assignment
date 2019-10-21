@@ -88,71 +88,14 @@ module.exports =
 /******/
 /******/
 /******/ 	// Load entry module and return exports
-/******/ 	return __webpack_require__(__webpack_require__.s = 3);
+/******/ 	return __webpack_require__(__webpack_require__.s = 5);
 /******/ })
 /************************************************************************/
 /******/ ({
 
-/***/ "./pages/Card.css":
+/***/ "./pages/page2.js":
 /*!************************!*\
-  !*** ./pages/Card.css ***!
-  \************************/
-/*! no static exports found */
-/***/ (function(module, exports) {
-
-
-
-/***/ }),
-
-/***/ "./pages/Card.js":
-/*!***********************!*\
-  !*** ./pages/Card.js ***!
-  \***********************/
-/*! exports provided: default */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-__webpack_require__.r(__webpack_exports__);
-/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "react");
-/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
-/* harmony import */ var _Card_css__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./Card.css */ "./pages/Card.css");
-/* harmony import */ var _Card_css__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(_Card_css__WEBPACK_IMPORTED_MODULE_1__);
-
-var __jsx = react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement;
-
-
-const Card = props => __jsx("div", {
-  className: "card"
-}, __jsx("div", {
-  className: "front"
-}, __jsx("img", {
-  src: "/static/juice.jpg",
-  alt: "Avatar",
-  className: "card-image"
-}), __jsx("div", {
-  className: "container"
-}, __jsx("h3", null, "Vitamin Juice ", __jsx("span", {
-  className: "price"
-}, "$24.99")), __jsx("p", null, "Need a jump on your vitamins while drinking? Tired of popping the pills? Drink our vitamin enhanced juice, available in several flavours."))));
-
-/* harmony default export */ __webpack_exports__["default"] = (Card);
-
-/***/ }),
-
-/***/ "./pages/index.css":
-/*!*************************!*\
-  !*** ./pages/index.css ***!
-  \*************************/
-/*! no static exports found */
-/***/ (function(module, exports) {
-
-
-
-/***/ }),
-
-/***/ "./pages/index.js":
-/*!************************!*\
-  !*** ./pages/index.js ***!
+  !*** ./pages/page2.js ***!
   \************************/
 /*! exports provided: default */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
@@ -161,35 +104,20 @@ const Card = props => __jsx("div", {
 __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "react");
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
-/* harmony import */ var _index_css__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./index.css */ "./pages/index.css");
-/* harmony import */ var _index_css__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(_index_css__WEBPACK_IMPORTED_MODULE_1__);
-/* harmony import */ var _Card__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./Card */ "./pages/Card.js");
 
 var __jsx = react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement;
-
-
-/* harmony default export */ __webpack_exports__["default"] = (() => __jsx("div", {
-  className: "App"
-}, __jsx("header", {
-  className: "App-header"
-}, __jsx("img", {
-  src: "/static/logo.png",
-  className: "static-logo",
-  alt: ""
-})), __jsx("div", {
-  className: "Grid"
-}, __jsx(_Card__WEBPACK_IMPORTED_MODULE_2__["default"], null), __jsx(_Card__WEBPACK_IMPORTED_MODULE_2__["default"], null), __jsx(_Card__WEBPACK_IMPORTED_MODULE_2__["default"], null), __jsx(_Card__WEBPACK_IMPORTED_MODULE_2__["default"], null), __jsx(_Card__WEBPACK_IMPORTED_MODULE_2__["default"], null), __jsx(_Card__WEBPACK_IMPORTED_MODULE_2__["default"], null))));
+/* harmony default export */ __webpack_exports__["default"] = (() => __jsx("h1", null, "im page 2"));
 
 /***/ }),
 
-/***/ 3:
+/***/ 5:
 /*!******************************!*\
-  !*** multi ./pages/index.js ***!
+  !*** multi ./pages/page2.js ***!
   \******************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__(/*! /Users/andrewmac/Desktop/ssr2/pages/index.js */"./pages/index.js");
+module.exports = __webpack_require__(/*! /Users/andrewmac/Desktop/ssr2/pages/page2.js */"./pages/page2.js");
 
 
 /***/ }),
@@ -206,4 +134,4 @@ module.exports = require("react");
 /***/ })
 
 /******/ });
-//# sourceMappingURL=index.js.map
+//# sourceMappingURL=page2.js.map
